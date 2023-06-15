@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-class CakeCutting {
+class PastelMMs {
     public static int maxEqualParts(String mmsSequence) {
         int maxParts = 1; // Inicializar el número máximo de partes a 1
 
-        for (int length = 1; length <= mmsSequence.length()/maxParts; length++) {
+        for (int length = 1; length <= mmsSequence.length()/2; length++) {
             if (mmsSequence.length() % length == 0) {
                 String subSequence = mmsSequence.substring(0, length);
                 int possibleParts = mmsSequence.length() / length;
