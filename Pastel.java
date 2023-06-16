@@ -33,7 +33,7 @@ class PastelMMs {
         }
     }
     public static void main(String[] args) {
-        String mmsSequence = "abcabcabcabc";//Se define la cadena no vacía
+        String mmsSequence = "abccbaabccba";//Se define la cadena no vacía
         int maxParts = maxEqualParts(mmsSequence);
         System.out.println("Número máximo de partes iguales: " + maxParts);
         printReparto(mmsSequence, maxParts);
